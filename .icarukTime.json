@@ -1,0 +1,13 @@
+{
+    "idleHeartbeats": 2192,
+    "navigatingHeartbeats": 511,
+    "totalCodingHeartbeats": 5065,
+    "languageHeartbeats": {
+        "html": 865,
+        "css": 4200
+    },
+    "fileHeartbeats": {
+        "videoconsola.html": 865,
+        "css/videoconsola.css": 4200
+    }
+}
