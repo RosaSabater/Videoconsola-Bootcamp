@@ -1,13 +1,17 @@
 {
-    "idleHeartbeats": 2192,
-    "navigatingHeartbeats": 511,
-    "totalCodingHeartbeats": 5065,
+    "idleHeartbeats": 2789,
+    "navigatingHeartbeats": 744,
+    "totalCodingHeartbeats": 6204,
     "languageHeartbeats": {
-        "html": 865,
-        "css": 4200
+        "html": 902,
+        "css": 5203,
+        "scminput": 10,
+        "jsonc": 89
     },
     "fileHeartbeats": {
-        "videoconsola.html": 865,
-        "css/videoconsola.css": 4200
+        "videoconsola.html": 902,
+        "css/videoconsola.css": 5203,
+        "scm\\git\\scm0\\input": 10,
+        "c:\\Users\\rosam\\AppData\\Roaming\\Code\\User\\settings.json": 89
     }
 }
