@@ -1,21 +1,21 @@
 {
-    "idleHeartbeats": 3912,
-    "navigatingHeartbeats": 1032,
-    "totalCodingHeartbeats": 10054,
+    "idleHeartbeats": 3448,
+    "navigatingHeartbeats": 847,
+    "totalCodingHeartbeats": 7513,
     "languageHeartbeats": {
-        "html": 1852,
-        "css": 8083,
-        "scminput": 20,
+        "html": 1338,
+        "css": 6022,
+        "scminput": 54,
         "jsonc": 89,
         "plaintext": 10
     },
     "fileHeartbeats": {
         "videoconsola.html": 902,
-        "css/videoconsola.css": 5322,
-        "scm\\git\\scm0\\input": 20,
+        "css/videoconsola.css": 5203,
+        "scm\\git\\scm0\\input": 54,
         "c:\\Users\\rosam\\AppData\\Roaming\\Code\\User\\settings.json": 89,
-        "index.html": 950,
-        "css/css.css": 2761,
-        "c:\\Users\\rosam\\OneDrive\\Escritorio\\Videoconsola-Bootcamp\\index.html.git": 10
+        "css/css.css": 819,
+        "index.html": 436,
+        "c:\\Users\\rosam\\Desktop\\1Proyectos\\VideoconsolaCSS\\css\\css.css.git": 10
     }
 }

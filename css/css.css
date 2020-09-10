@@ -14,6 +14,35 @@ body {
     width: 450px;
 }
 
+.directionalPad1 {
+    position: absolute;
+    background-color: black;
+    border-radius: 0.5em;
+    height: 6em;
+    width: 2em;
+    top: 62%;
+    left: 18%
+}
+
+.directionalPad2 {
+    position: absolute;
+    background-color: black;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 6em;
+    top: 66.5%;
+    left: 11%
+}
+
+.nintendoImg {
+    position: absolute;
+    background-image: url(/img/s-l1600.jpg);
+    height: 2em;
+    width: 15em;
+    top: 52%;
+    left: 7%
+}
+
 .power {
     position: absolute;
     background-color: rgba(139, 139, 139, 0.658);
@@ -68,8 +97,8 @@ body {
     border-radius: 1em 1em 4em 1em;
     position: relative;
     top: 3em;
-    height: 50%;
-    width: 90%;
+    height: 45%;
+    width: 85%;
 }
 
 .greenScreen {
@@ -125,7 +154,7 @@ body {
     box-shadow: 0 0.5em 0 #2828d4;
     left: 1em;
     height: 0.23em;
-    width: 6.7em;
+    width: 5.2em;
     top: 20%;
 }
 
