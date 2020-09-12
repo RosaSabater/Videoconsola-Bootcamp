@@ -1,115 +1,125 @@
 body {
     justify-content: center;
     display: flex;
-    background-color: rgb(185, 240, 238);
     height: 100%;
     width: 100%;
 
+    background-color: rgb(185, 240, 238);
 }
 
 .case {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 42em;
+    width: 25em;
+
     border-radius: 0.7em 0.7em 6em 0.7em;
-    background-color: rgb(253, 242, 242);
+    background-color: #CECBC8;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
     border: 2px solid grey;
-    height: 44.5em  ;
-    width: 28em;
 }
-
-.directionalPad1 {
-    background-color: black;
-    border-radius: 0.5em;
-    height: 6em;
-    width: 2em;
-
-}
-
-.directionalPad2 {
-    background-color: black;
-    border-radius: 0.5em;
-    height: 2em;
-    width: 6em;
-}
-
-.nintendoImg {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 10%;
-    height: 2em;
-    width: 100%;
-}
-
-.nintendoImg > span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: blue;
-    font-size: 0.7em;
-    margin-top: 1.5em;
-}
-
-.power {
-    display: flex;
-    background-color: rgba(139, 139, 139, 0.658);
-    flex-direction: column;
-    height: 77%;
-    width: 16%;
-    border-radius: 1em 1em 1em 1em;
-    margin-right: 71%;
-    
-}
-
-.textPower {
-    font-family: Arial, Helvetica, sans-serif;
-    color :rgb(218, 216, 216);
-    font-size: 0.6em;
-    padding-top: 3%;
-}
-
 
 .topColumns {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 3%;
     width: 100%;
-    justify-content: space-between;
 }
 
 .columnBar1 {
-    background-color: rgba(139, 139, 139, 0.658);
-    width: 0.5%;
+    width: 1%;
     height: 100%;
     margin-left: 5%;
+
+    background-color: rgba(139, 139, 139, 0.658);
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    margin-right: 67%;
+    height: 77%;
+    width: 16%;
+
+    background-color: rgba(139, 139, 139, 0.658);
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 1em 1em 1em 1em;
+}
+
+.textPower {
+    padding-top: 3%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color :rgb(218, 216, 216);
+    font-size: 0.6em;
 }
 
 .columnBar2 {
-    background-color:rgba(139, 139, 139, 0.658);
-    width: 0.5%;
+    width: 1%;
     height: 100%;
     margin-right: 5%;
 
+    background-color:rgba(139, 139, 139, 0.658);
+    
 }
 
 .rowBar1 {
-    background-color: rgba(139, 139, 139, 0.658);
     flex-direction: row;
     width: 100%;
-    height: 0.3%;
+    height: 0.5%;
+
+    background-color: rgba(139, 139, 139, 0.658);
 } 
 
 .screenBackground {
-    background-color: rgb(139, 139, 139);
-    border: 3px solid rgb(107, 107, 107);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
-    border-radius: 1em 1em 4em 1em;
     height: 43%;
     width: 85%;
+
+    background-color: #515260;
+    border: 3px solid rgb(107, 107, 107);
+    border-radius: 1em 1em 4em 1em;
+}
+
+.screenTop {
+    margin-left: 4%;
+    margin-top: 2%;
+    flex-direction: row;
+    display: flex;
+    height: 1.2em;
+    width: 100%;
+}
+
+.line1 {
+    position: relative;
+    height: 0.23em;
+    width: 5.5em;
+
+    box-shadow: 0 0.5em 0 #090750;
+    background-color: #750B4C;
+}
+
+.textLine {
+    padding: 0 0.3em;
+
+    font-size: 0.7em;
+    color: rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line2 {
+    position: relative;
+    height: 0.23em;
+    width: 2.5em;
+
+    background-color: #750B4C;
+    box-shadow: 0 0.5em 0 #090750;
+    
 }
 
 .screenBox {
@@ -126,26 +136,14 @@ body {
     align-items: center;
     padding-left: 1%;
     padding-bottom: 30%;
-
-}
-
-.greenScreen {
-    background-color: rgb(219, 240, 102);
-    border: 0.2em solid rgb(105, 105, 105);
-    border-top: 3px solid rgba(0, 0, 0, 0.644);
-    border-left: 5px solid rgba(0, 0, 0, 0.582);
-    position: relative;
-    height: 80%;
-    width: 70%;
-    margin-top: 3%;
-    margin-left: 1%;
 }
 
 .battery {
-    background-color: red;
-    border-radius: 50%;
     height: 0.6em;
     width: 0.6em;
+
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
 }
 
 .textBattery  {
@@ -154,35 +152,265 @@ body {
     font-size: 0.6em;
 }
 
-.screenTop {
-    margin-left: 4%;
-    margin-top: 2%;
-    flex-direction: row;
+.greenScreen {
+    position: relative;
+    height: 80%;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 1%;
+
+    border: 0.2em solid rgb(105, 105, 105);
+    border-top: 3px solid rgba(0, 0, 0, 0.644);
+    border-left: 5px solid rgba(0, 0, 0, 0.582);
+
+    background: rgb(58,76,15);
+    background: linear-gradient(180deg, rgba(58,76,15,1) 0%, rgb(125, 156, 31) 100%);
+}
+
+.nintendoSpace {
     display: flex;
-    height: 1.2em;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+}
+
+.nintendoImg {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+    height: 2em;
     width: 100%;
 }
 
-.textLine {
-    padding: 0 0.3em;
-    font-size: 0.8em;
-    color: rgb(196, 196, 196);
-    font-family: Arial, Helvetica, sans-serif;
+
+.direcButtonBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
 }
 
-.line1 {
+.directional {
+    display: flex;
     position: relative;
-    background-color: #7c0b5a;
-    box-shadow: 0 0.5em 0 #2828d4;
-    height: 0.23em;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 25%;
+}
+
+.directionalPad1 {
+    position: absolute;
+    height: 6em;
+    width: 2em;
+
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+    border-radius: 0.5em;
+    border: 1px solid rgb(107, 107, 107);
+    background-color: black;
+}
+
+.directionalPad2 {
+    position: absolute;
+    height: 2em;
     width: 6em;
+    
+    border-radius: 0.5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+    background-color: black;
+} 
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+    background-color: #c1bdbcce;
+    transform: rotate(-30deg);
+    border-radius: 9em;
 }
 
-.line2 {
+.button1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
-    background-color: #7c0b5a;
-    box-shadow: 0 0.5em 0 #2828d4;
-    height: 0.23em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    background-color: #840C43;
+    box-shadow: 3px 0px 2px 1px rgba(0, 0, 0, 0.685);
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 5em;
+}
+
+.button1 > span {
+    position: absolute;
+    bottom: -2em;
+
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 175);
+}
+
+.button2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 3em;
+    width: 3em;
+    
+    background-color: #840C43;
+    box-shadow: 3px 0px 2px 1px rgba(0, 0, 0, 0.685);
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 5em;
+}
+
+.button2 > span {
+    position: absolute;
+    bottom: -2em;
+    
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 175);
+}
+
+.botBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    padding-top: 1em;
+    padding-right: 5em;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    height: 0.6em;
+    width: 3.2em;
+    margin-right: 0.8em;
+
+    transform: rotate(-30deg);
+    background: rgb(150, 149, 149);
+    border-radius: 1em;
+    border: 1px solid rgb(107, 107, 107);
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.685);
+}
+
+.select > span {
+    position: absolute;
+    bottom: -1.8em;
+    
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 175);
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    height: 0.6em;
+    width: 3.2em;
+
+    background: rgb(150, 149, 149);
+    transform: rotate(-30deg);
+    border-radius: 1em;
+    border: 1px solid rgb(107, 107, 107);
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.685);
+}
+
+.start > span {
+    position: absolute;
+    bottom: -1.8em;
+    
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 175);
+}
+
+.bot {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.rejilla {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-bottom: 9%;
+    margin-right: 2%;
+
+    transform: rotate(-35deg);
+}
+
+.rej1 {
+    height: 3.9em;
+    width: 0.6em;
+
+    border-radius: 5em;
+    background: rgba(175, 175, 175, 0.795);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+.rej2 {
+    height: 3.9em;
+    width: 0.6em;
+
+    background: rgba(175, 175, 175, 0.795);
+    border-radius: 5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+.rej3 {
+    height: 3.9em;
+    width: 0.6em;
+
+    background: rgba(175, 175, 175, 0.795);
+    border-radius: 5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+.rej4 {
+    height: 3.9em;
+    width: 0.6em;
+
+    background: rgba(175, 175, 175, 0.795);
+    border-radius: 5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+.rej5 {
+    height: 3.9em;
+    width: 0.6em;
+
+    background: rgba(175, 175, 175, 0.795);
+    border-radius: 5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
+}
+
+.rej6 {
+    height: 3.9em;
+    width: 0.6em;
+
+    background: rgba(175, 175, 175, 0.795);
+    border-radius: 5em;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.685);
 }
