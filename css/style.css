@@ -46,6 +46,7 @@ body {
     background-color: rgba(139, 139, 139, 0.658);
     border: 1px solid rgb(148, 147, 147);
     border-radius: 1em 1em 1em 1em;
+    cursor: pointer;
 }
 
 .textPower {
